@@ -1,0 +1,314 @@
+.style_confirmPopupConfirmButton__SAIp- {
+  background: #434bdf !important;
+}
+.ConfettiExplosion {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+#middle-wizard > div.summary.step ul li {
+  margin: 0;
+  padding: 0;
+  border-bottom: none;
+  position: relative;
+  padding-left: 45px;
+  margin-bottom: 25px;
+}
+
+.column-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  column-gap: 20px;
+  max-width: 800px;
+}
+
+#wizard_container {
+  width: 90% !important;
+}
+
+.backward {
+  margin-right: 10px;
+}
+
+.forward {
+  margin-left: 10px;
+}
+
+#notfound {
+  position: relative;
+  height: 100vh;
+}
+
+#notfound .notfound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#notfound > p {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#notfound .notfound h2 span {
+  color: #434bdf;
+}
+
+.notfound {
+  max-width: 710px;
+  width: 100%;
+  padding-left: 190px;
+  line-height: 1.4;
+}
+
+.notfound .notfound-404 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 150px;
+  height: 150px;
+}
+
+.notfound .notfound-404 h1 {
+  font-family: "Passion One", cursive;
+  color: #434bdf;
+  font-size: 150px;
+  letter-spacing: 15.5px;
+  margin: 0px;
+  font-weight: 900;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.notfound h2 {
+  font-family: "Raleway", sans-serif;
+  color: #292929;
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  margin-top: 0;
+}
+
+.notfound p {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.notfound a {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #fff;
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 40px;
+  color: #292929;
+  font-weight: 700;
+  -webkit-box-shadow: 0px 4px 15px -5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 4px 15px -5px rgba(0, 0, 0, 0.3);
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.notfound a:hover {
+  color: #fff;
+  background-color: #434bdf;
+}
+
+.cookiesContent {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  border-radius: 20px;
+  padding: 30px 30px 70px;
+}
+
+@media only screen and (max-width: 480px) {
+  .notfound {
+    text-align: center;
+  }
+  .notfound .notfound-404 {
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .notfound {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.made-with {
+  background: #434bdf;
+  color: #fff;
+  display: block;
+  font-size: 12px;
+  line-height: 1em;
+  margin: 0;
+  padding: 5px 110px;
+  position: fixed;
+  top: 20px;
+  right: -100px;
+  text-align: center;
+  text-decoration: none;
+  transform: rotate(45deg);
+}
+.documentation {
+  color: #434bdf;
+}
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.tabs {
+  display: block;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0;
+  width: 100%;
+  overflow: hidden;
+}
+.tabs [class^="tab"] .label,
+.tabs [class*=" tab"] .label {
+  cursor: pointer;
+  display: block;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1em;
+  padding: 2rem 0;
+  text-align: center;
+}
+.tabs [class^="tab"] [type="radio"],
+.tabs [class*=" tab"] [type="radio"] {
+  border-bottom: 1px solid rgba(239, 237, 239, 0.5);
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  width: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.tabs [class^="tab"] [type="radio"]:hover,
+.tabs [class^="tab"] [type="radio"]:focus,
+.tabs [class*=" tab"] [type="radio"]:hover,
+.tabs [class*=" tab"] [type="radio"]:focus {
+  border-bottom: 1px solid #434bdf;
+}
+.tabs [class^="tab"] [type="radio"]:checked,
+.tabs [class*=" tab"] [type="radio"]:checked {
+  border-bottom: 2px solid #434bdf;
+}
+.tabs [class^="tab"] [type="radio"]:checked + div,
+.tabs [class*=" tab"] [type="radio"]:checked + div {
+  opacity: 1;
+}
+.tabs [class^="tab"] [type="radio"] + div,
+.tabs [class*=" tab"] [type="radio"] + div {
+  display: block;
+  opacity: 0;
+  padding: 2rem 0;
+  width: 90%;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.tabs .tab-2 {
+  width: 50%;
+}
+.tabs .tab-2 [type="radio"] + div {
+  width: 200%;
+  margin-left: 200%;
+}
+.tabs .tab-2 [type="radio"]:checked + div {
+  margin-left: 0;
+}
+.tabs .tab-2:last-child [type="radio"] + div {
+  margin-left: 100%;
+}
+.tabs .tab-2:last-child [type="radio"]:checked + div {
+  margin-left: -100%;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #434bdf;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f0f0f0;
+}
+
+.summary ul li {
+  margin-bottom: 10px !important;
+}
+
+*{padding:0;margin:0;}
+
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#434bdf;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+  z-index:9999;
+}
+
+.my-float{
+	margin-top:22px;
+}
+.my-float:hover{
+  color:#FFF
+}
+
+.content-right {
+  height: 880px !important;
+}
